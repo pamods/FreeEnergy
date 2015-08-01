@@ -1,0 +1,29 @@
+{
+    "context": "client",
+    "identifier": "info.nanodesu.freeenergy",
+    "display_name": "Free Energy",
+    "description": "Automatic Economy Management System. Experimental. Read the forums!",
+    "author": "Cola_Colin",
+    "version": "1",
+    "build": "85138",
+    "date": "2015/08/1",
+    "signature": "not yet implemented",
+    "id": "uimod-freeenergy",
+    "priority": 100,
+    "forum": "https://forums.uberent.com/threads/wip-free-energy.69359/",
+    "scenes": {
+    	"live_game":[
+    		"coui://ui/mods/freeenergy/live_game.js"
+    	],
+        "live_game_action_bar": [
+        	"coui://ui/mods/freeenergy/unitInfoParser.js",
+        	"coui://ui/mods/freeenergy/live_game_action_bar.js"
+        ]
+    },
+	
+   "category": [
+    "in-game",
+    "ui"
+  ],
+   "enabled": true
+}
